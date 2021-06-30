@@ -1,0 +1,20 @@
+body {
+    color: #999;
+}
+
+.field {
+    margin: 50px auto;
+    background-color: gray;
+    border-collapse: collapse;
+}
+  
+.cell {
+    width: 110px;
+    height: 110px;
+    border: 2px solid black;
+}
+  
+img {
+    width: 100px;
+    height: 100px;
+}
