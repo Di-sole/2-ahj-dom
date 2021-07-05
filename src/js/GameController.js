@@ -1,3 +1,5 @@
+import goblin from '../img/goblin.png';
+
 export default class GameController {
   constructor(cellsSelector) {
     this.cells = document.querySelectorAll(cellsSelector);
@@ -10,7 +12,7 @@ export default class GameController {
   }
 
   addGoblin(index) {
-    this.cells[index].innerHTML = '<img class="goblin" src="https://github.com/netology-code/ahj-homeworks/blob/simplification/dom/pic/goblin.png?raw=true" alt="goblin">';
+    this.cells[index].innerHTML = `<img class="goblin" src=${goblin} alt="goblin">`;
   }
 
   deleteGoblin(index) {
